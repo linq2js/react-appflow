@@ -120,3 +120,5 @@ export function useFlow(flow) {
 
   return hook;
 }
+
+export default useFlow;
