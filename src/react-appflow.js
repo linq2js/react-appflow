@@ -11,7 +11,7 @@ import {
 const defaultSelector = value => value;
 const customUseMemo = useMemo;
 
-export function connectFlow(flow, mapper) {
+export function connect(flow, mapper) {
   return comp => {
     const memoizedComp = memo(comp);
     return memo(props => {
